@@ -1,8 +1,10 @@
+package com.jacob.pokemon;
+
 
 public enum Moves {
 	
-	WATER_GUN(30, "WATER GUN", Type.WATER), EMBER(30, "EMBER", Type.FIRE), VINE_WHIP(20, "VINE WHIP", Type.GRASS), 
-	SCRATCH(25, "SCRATCH", Type.NORMAL), TACKLE(30, "TACKLE", Type.NORMAL);
+	WATER_GUN(30, "WATER GUN", Type.WATER), EMBER(30, "EMBER", Type.FIRE), VINE_WHIP(30, "VINE WHIP", Type.GRASS), 
+	SCRATCH(25, "SCRATCH", Type.NORMAL), TACKLE(25, "TACKLE", Type.NORMAL);
 	
 	
 	private double damage;

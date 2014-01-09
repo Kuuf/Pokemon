@@ -1,3 +1,5 @@
+package com.jacob.pokemon;
+
 
 public class Pokemon {
 	public double hp,att,def,spd;
@@ -8,9 +10,9 @@ public class Pokemon {
 	public static Pokemon BULBASAUR = new Pokemon
 			("BULBASAUR", 45, 5, 5, 4, Moves.TACKLE, Moves.VINE_WHIP, 2, Type.GRASS);
 	public static Pokemon CHARMANDER = new Pokemon
-			("CHARMANDER", 45, 5, 5, 5, Moves.SCRATCH, Moves.EMBER, 2, Type.FIRE);
+			("CHARMANDER", 43, 7, 3, 5, Moves.SCRATCH, Moves.EMBER, 2, Type.FIRE);
 	public static Pokemon SQUIRTLE = new Pokemon
-			("SQUIRTLE", 44, 3, 7, 4, Moves.TACKLE, Moves.WATER_GUN, 2, Type.WATER );
+			("SQUIRTLE", 46, 3, 7, 3, Moves.TACKLE, Moves.WATER_GUN, 2, Type.WATER );
 
 	public Pokemon(String name, int hp, int att, int def, int spd, Moves move1, Moves move2, int moveNum, Type type){
 		this.name = name;

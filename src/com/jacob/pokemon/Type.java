@@ -1,3 +1,5 @@
+package com.jacob.pokemon;
+
 
 public enum Type {
 

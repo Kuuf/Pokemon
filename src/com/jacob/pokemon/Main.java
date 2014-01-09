@@ -1,3 +1,5 @@
+package com.jacob.pokemon;
+
 import java.util.Scanner;
 public class Main {
 	public static String player;
